@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-DISK="/dev/nvme0n1"          # Disco donde está tu instalación de Linux
+DISK="/dev/nvme0n1p4"          # Disco donde está tu instalación de Linux
 CRYPT_NAME="main"             # Nombre del mapper LUKS
 
 echo "=== CIFRADO LUKS ==="
